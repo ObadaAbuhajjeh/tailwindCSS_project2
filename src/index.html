@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <nav class="wrapper flex items-center justify-between gap-10 shadow-xl py-4">
+        <div class="flex items-center justify-between w-full 2lg:w-fit gap-10">
+            <div class="w-[120px] sm:w-[155px]">
+                <img class="w-full" src="assets/mangCodingStore.svg" alt="">
+            </div>
+            <button id="menuToggle" class="bg-slate-100 rounded-sm px-3 py-2 block 2lg:hidden">
+                <i class="material-icons">menu</i>
+            </button>
+        </div>
+        <div id="menu" class="2lg:flex items-center justify-between w-full flex-col 2lg:flex-row 
+        absolute bg-white top-[80px] px-10 py-4 left-0 shadow-md 2lg:static 2lg:shadow-none">
+            <ul class="flex gap-8 flex-col 2lg:flex-row">
+                <li><a class="text-mainColor font-medium capitalize" href="">home</a></li>
+                <li><a class="text-mainColor font-medium capitalize" href="">course</a></li>
+                <li><a class="text-mainColor font-medium capitalize" href="">about us</a></li>
+                <li><a class="text-mainColor font-medium capitalize" href="">article</a></li>
+                <li><a class="text-mainColor font-medium capitalize" href="">contact</a></li>
+            </ul>
+            <div class="flex gap-2 items-center">
+                <button class="border border-primary py-1 px-8 rounded-lg"><a class="capitalize text-primary" href="#">log in</a></button>
+                <button class="bg-primary border border-primary py-1 px-8 rounded-lg"><a class="capitalize text-white" href="#">register</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="wrapper">
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-10 mt-16">
+            <div class="w-full">
+                <span class="text-blue-400 text-xl">Let’s <span class="text-[#545BE8] font-semibold text-xl">Begins</span></span>
+                <h1 class="text-mainColor text-4xl 2lg:text-6xl font-black mt-8">Let's Find The <br><br>Right <span class="text-[#545BE8]">Course</span><br><br>For you</h1>
+                <p class="text-secondaryTextColor text-xl mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                <div class="flex items-center gap-3 mt-6">
+                    <button class="bg-primary border border-primary py-1 px-8 rounded-lg"><a class="capitalize text-white" href="#">register</a></button>
+                    <div class="flex items-center gap-2">
+                        <img src="assets/playIcon.svg" alt="">
+                        <span class="font-semibold">Play Video</span>
+                    </div>
+                </div>
+            </div>
+            <img class="w-full" src="assets/headerImg.svg" alt="">
+        </div>
+        
+    </header>
+
+    <main>
+        <section class="bg-[#F5F5F5] py-16 items-center justify-center gap-3">
+            <div class="wrapper grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div>
+                    <span class="text-primary font-Inter ">WHAT WE GIVE</span>
+                    <h2 class="text-mainColor text-5xl font-semibold mt-8">What do You <br>Get From Us</h2>
+                    <p class="text-secondaryTextColor text-xl mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                </div>
+                <div class="grid lg:grid-cols-2 xl:grid-cols-3 items-center justify-center gap-8 w-full">
+                    <div class="flex flex-col py-3 px-3 bg-primary gap-3 items-center">
+                        <img class="border rounded-full bg-white w-[30%]" src="assets/teacherIcon.svg" alt="">
+                        <h3 class="text-white">Professional Teacher</h3>
+                        <p class="text-gray-300 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                    </div>
+                    <div class="flex flex-col py-3 px-3 bg-primary gap-3 items-center">
+                        <img class="border rounded-full bg-white w-[30%]" src="assets/couseIcon.svg" alt="">
+                        <h3 class="text-white">Course Certificate</h3>
+                        <p class="text-gray-300 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                    </div>
+                    <div class="flex flex-col py-3 px-3 bg-primary gap-3 items-center">
+                        <img class="border rounded-full bg-white w-[30%]" src="assets/learnIcon.svg" alt="">
+                        <h3 class="text-white">interesting learning</h3>
+                        <p class="text-gray-300 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-primary py-16">
+            <div class="wrapper grid grid-cols-1 lg:grid-cols-2  items-center justify-center gap-20">
+                    <img class="w-full" src="assets/adverIcon.svg" alt="">
+                <div class="items-center justify-center w-full">
+                    <span class="text-[#F0C932]">SELECTED COURSE</span>
+                    <h2 class="text-white font-Poppins font-semibold text-5xl mt-10">People Taking <br>Courses</h2>
+                    <p class="text-gray-300 text-xl mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                    <div class="grid grid-cols-3 mt-10 gap-14 items-center justify-center">
+                        <div class="flex flex-col">
+                            <span class="text-[#F0C932] font-extrabold text-2xl">6,000</span>
+                            <span class="text-gray-300">People Views</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-[#F0C932] font-extrabold text-2xl">4,000</span>
+                            <span class="text-gray-300">Users Apply</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-[#F0C932] font-extrabold text-2xl">100</span>
+                            <span class="text-gray-300">courses Exsist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="bg-[#F5F5F5] py-16 ">
+            <div class="wrapper grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-20">
+                <div class="w-full flex flex-col items-center justify-center gap-6">
+                    <div class="w-full  grid grid-cols-1 lg:grid-cols-2 gap-3 items-center justify-center">
+                        <img class="w-full" src="assets/htmlImg.svg" alt="">
+                        <img class="w-full" src="assets/photoImg.svg" alt="">
+                    </div>
+                    <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-3 items-center justify-center">
+                        <img class="w-full" src="assets/javaImg.svg" alt="">
+                        <img class="w-full" src="assets/designImg.svg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <span class="text-primary font-Inter">AVAILABLE FOR YOU</span>
+                    <h2 class="font-semibold text-5xl mt-8">Available <br>Courses</h2>
+                    <p class="text-secondaryTextColor text-xl mt-8 mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                    <button class="bg-primary border border-primary py-3 px-10 rounded-lg"><a class="capitalize text-white" href="#">see all</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#F5F5F5] py-16 ">
+            <div class="wrapper grid grid-cols-1 items-center justify-center w-full gap-10">
+                <h2 class="font-bold text-4xl font-Poppins flex justify-center items-center">Testimonials</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-6">
+                    <img class="w-full" src="assets/testemonialOne.svg" alt="">
+                    <img class="w-full" src="assets/testemonialTwo.svg" alt="">
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="bg-[#393E46] mt-16 w-full">
+        <div class="wrapper py-16 grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-10">
+            <div>
+                <div class="flex gap-3 items-center">
+                    <img class="w-[50px]" src="assets/Logo.svg" alt="">
+                    <h2 class="text-white text-2xl font-semibold">mangcoding Store</h2>
+                </div>
+                <p class="text-[#F4F4F4] mt-10 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis, justo nec porttitor auctor, erat sapien faucibus lectus, vel tempor dolor augue et lectus. </p>
+                <div class="flex gap-4 items-center">
+                    <a href=""><img class="w-[40px]" src="assets/facebook.svg" alt=""></a>
+                    <a href=""><img class="w-[40px]" src="assets/twetter.svg" alt=""></a>
+                    <a href=""><img class="w-[40px]" src="assets/linkedin.svg" alt=""></a>
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-[40px] bg-white"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"/></svg></a>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 2md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                <div>
+                    <span class="mb-4 footer-address">Home</span>
+                    <ul class="py-4 flex flex-col gap-3 text-[#F4F4F4] justify-center">
+                        <li>Product</li>
+                        <li>Course</li>
+                        <li>About Us</li>
+                        <li>Log in</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="mb-4 footer-address">Course</span>
+                    <ul class="py-4 flex flex-col gap-3 text-[#F4F4F4] justify-center">
+                        <li>HTMK & CSS</li>
+                        <li>Javascript</li>
+                        <li>Photographer</li>
+                        <li>Desain Grafis</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="mb-4 footer-address">Article</span>
+                    <ul class="py-4 flex flex-col gap-3 text-[#F4F4F4] justify-center">
+                        <li>New</li>
+                        <li>Old</li>
+                        <li>Trend</li>
+                        <li>Popular</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="mb-4 footer-address">Contact Us</span>
+                    <ul class="py-4 flex flex-col gap-3 text-[#F4F4F4] justify-center">
+                        <li>CCd23@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>
+    const menuToggle = document.getElementById("menuToggle");
+    const menu = document.getElementById("menu");
+
+    menuToggle.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        if (menu.classList.contains("hidden")) {
+            menuToggle.innerHTML = '<i class="material-icons">menu</i>';
+        } else {
+            menuToggle.innerHTML = '<i class="material-icons">close</i>';
+        }
+    });
+</script>
+</html>
